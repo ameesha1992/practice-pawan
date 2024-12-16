@@ -1,12 +1,12 @@
-apiversion : v1
-kind : pod
-metadata :
- name: nginx-pod1
- spec :
+apiVersion: v1
+kind: Pod
+metadata:
+  name: testpod2
+  labels:
+   app: aig
+spec:
   containers:
-   - name: nginx
-     image: nginx-latest
-     ports: 
-      -containerport :80
-
-  
+  - image: nginx
+    name: testpod2
+    ports:
+    - containerPort: 80
