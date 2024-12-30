@@ -26,7 +26,7 @@ spec:
       volumes:
       - name: mongodb-data
         awsElasticBlockStore:
-           volumeID: vol-061906345f5858752
+           volumeID: vol-0884bb34339b352e0
            fsType: ext4
       nodeSelector:
-          kubernetes.io/hostname: i-0eb45af36a2c0722d
+          kubernetes.io/hostname: i-05a94d34ab5d3e85a
